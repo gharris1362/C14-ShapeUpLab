@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div id="input-container">
+        <div id="rectangle-inputs">
+            <input type="text" placeholder="rectangle Height" id="rectangleHeight">
+            <input type="text" placeholder="rectangle Width" id="rectangleWidth">
+            <button id="rectangleBtn">Create a Rectangle</button>
+        </div>
+        <div id="square-inputs">
+            <input type="text" placeholder="Square Sides" id="squareSides">
+            <button id="squareBtn">Create a Square</button>
+
+        </div>
+        <div id="circle-inputs">
+            <input type="text" placeholder="Circle Radius" id="circleRadius">
+            <button id="circleBtn">Create a Circle</button>
+
+        </div>
+        <div id="triangle-inputs">
+            <input type="text" placeholder="triangle Height" id="triangleHeight">
+            <button id="triangleBtn">Create a triangle</button>
+        </div>
+        
+    </div>
+    <div id="container">
+  
+    <div id="shape-container"></div>
+    <div id="info-container">
+        <h1>Shape Info</h1>
+
+        <h3 id="shapeType"> Shape Type:</h3>
+        <h3 id="shapeHeight"> Shape Height:</h3>
+        <h3 id="shapeWidth"> Shape Width:</h3>
+        <h3 id="shapeRadius"> Shape Radius:</h3>
+        <h3 id="shapeArea"> Shape Area:</h3>
+        <h3 id="shapePerimeter"> Shape Perimeter:</h3>
+    </div>
+      
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
